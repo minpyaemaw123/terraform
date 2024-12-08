@@ -17,20 +17,20 @@ This project demonstrates deploying an AWS infrastructure using Terraform. It in
 
 ## Steps
 
-1. Configure the AWS Provider: Specify the AWS region.
+1. **Configure the AWS Provider:** Specify the AWS region.
 
-2. Define VPC and Subnets: Create a VPC and public/private subnets.
+2. **Define VPC and Subnets:** Create a VPC and public/private subnets.
 
-3. Set Up Security Groups: Configure security groups with dynamic rules.
+3. **Set Up Security Groups:** Configure security groups with dynamic rules.
 
-4. Configure Routing: Create and associate route tables.
+4. **Configure Routing:** Create and associate route tables.
 
-5. Deploy NAT Gateway and Internet Gateway: Enable internet connectivity for public and private subnets.
+5. **Deploy NAT Gateway and Internet Gateway:** Enable internet connectivity for public and private subnets.
 
-6. Launch EC2 Instance: Deploy an EC2 instance with provisioning.
+6. **Launch EC2 Instance:** Deploy an EC2 instance with provisioning.
 
 
-7. Apply the Configuration: Deploy the infrastructure using terraform apply.
+7. **Apply the Configuration:** Deploy the infrastructure using terraform apply.
 
 ## Verification
 
