@@ -220,20 +220,6 @@ resource "aws_instance" "web_server" {
     ignore_changes = [security_groups]
   }
 
-  #connection {
-  #  user        = "ubuntu"
-  #  private_key = tls_private_key.generated.private_key_pem
-  #  host        = self.public_ip
-  #}
-
-  #provisioner "remote-exec" {
-  #  inline = [
-  #    "sudo rm -rf /tmp",
-  #    "sudo git clone https://github.com/hashicorp/demo-terraform-101 /tmp",
-  #    "sudo sh /tmp/assets/setup-web.sh",
-  #  ]
-  #}
-
 
   provisioner "local-exec" {
     command = "chmod 600 ${local_file.private_key_pem.filename}"
