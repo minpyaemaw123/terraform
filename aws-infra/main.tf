@@ -184,7 +184,7 @@ resource "aws_nat_gateway" "nat_gateway" {
   }
 }
 
-# Terraform Data Block - To Lookup Latest Ubuntu 20.04 AMI Image
+# Terraform Data Block - To Lookup Ubuntu 22.04 AMI Image
 
 data "aws_ami" "ubuntu" {
   most_recent = true
