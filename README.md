@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains Infrastructure as Code (IaC) configurations written in Terraform to manage AWS resources. Currently, the aws-infra directory holds all configurations related to the deployment and management of AWS resources such as VPCs, subnets, EC2 instances, security groups, and more.
+This repository contains Infrastructure as Code (IaC) configurations written in Terraform to manage AWS resources.
 
 ## Use Cases
 
