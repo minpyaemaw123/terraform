@@ -27,7 +27,7 @@ This project demonstrates deploying an AWS infrastructure using Terraform. It in
 
 5. **Deploy NAT Gateway and Internet Gateway:** Enable internet connectivity for public and private subnets.
 
-6. **Launch EC2 Instance:** Deploy an EC2 instance with provisioning.
+6. **Launch EC2 Instance:** Deploy an EC2 instance with provisioning (Nginx and simple web page).
 
 
 7. **Apply the Configuration:** Deploy the infrastructure using terraform apply.
