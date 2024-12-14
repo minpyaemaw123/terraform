@@ -38,7 +38,7 @@ All resources were created successfully, and the results can be monitored from t
 
 ![](imgs/terraform_run.png)
 
-The instance is up and running with the NGINX server, and the web page is functioning correctly.
+The instance is up and running with the NGINX server, and the web page, provisionied using remote-exec, is functioning correctly.
 
 ![](imgs/web.png)
 
