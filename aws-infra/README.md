@@ -5,7 +5,7 @@
 ![](imgs/overview.png)
 
 
-This project demonstrates deploying an AWS infrastructure using Terraform. It includes configurations for VPC, subnets, route tables, security groups, NAT gateway, and an EC2 instance with provisioning scripts. Additionally, the configuration leverages Terraform Cloud as the remote backend for state management.
+This project demonstrates deploying an AWS infrastructure using Terraform. It includes configurations for VPC, subnets, route tables, security groups, NAT gateway, and an EC2 instance with provisioning scripts. Additionally, the configuration leverages ***Terraform Cloud as the remote backend for state management**.
 
 ## Prerequisites
 
