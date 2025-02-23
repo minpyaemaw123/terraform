@@ -62,6 +62,7 @@ resource "aws_security_group" "main" {
     }
   }
 
+#tells Terraform to create the new security group before destroying the old one during an update, to prevent downtime
   lifecycle {
     create_before_destroy = true
   }
