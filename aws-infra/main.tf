@@ -255,7 +255,7 @@ resource "aws_instance" "web_server" {
 
 }
 
-#Generating private key to acess for remote-exec provisioner to access the instance
+#Generating private key for remote-exec provisioner to access the instance
 
 resource "tls_private_key" "generated" {
   algorithm = "RSA"
